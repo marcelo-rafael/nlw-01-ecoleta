@@ -23,7 +23,7 @@ export const Content = styled.div`
     text-align: center;
   }
 
-  header {
+  > header {
     margin: 48px 0 0;
 
     @media (max-width: 900px) {
@@ -44,7 +44,7 @@ export const Main = styled.div`
     align-items: center;
   }
 
-  h1 {
+  > h1 {
     font-size: 54px;
     color: var(--title-color);
 
@@ -53,7 +53,7 @@ export const Main = styled.div`
     }
   }
 
-  p {
+  > p {
     font-size: 24px;
     margin-top: 24px;
     line-height: 38px;
@@ -63,7 +63,7 @@ export const Main = styled.div`
     }
   }
 
-  a {
+  > a {
     width: 100%;
     max-width: 360px;
     height: 72px;
@@ -77,7 +77,7 @@ export const Main = styled.div`
 
     margin-top: 40px;
 
-    span {
+    > span {
       display: block;
       background: rgba(0, 0, 0, 0.08);
       width: 72px;
@@ -88,14 +88,14 @@ export const Main = styled.div`
       justify-content: center;
       transition: background-color 0.2s;
 
-      svg {
+      > svg {
         color: #fff;
         width: 20px;
         height: 20px;
       }
     }
 
-    strong {
+    > strong {
       flex: 1;
       text-align: center;
       color: #fff;
