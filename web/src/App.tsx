@@ -1,8 +1,17 @@
 import React from 'react';
-import './App.css';
+
+import Home from './pages/Home';
+
+import GlobalStyles from './styles/GlobalStyles';
 
 function App() {
-  return <h1>Marcelo</h1>;
+  return (
+    <>
+      <Home />
+
+      <GlobalStyles />
+    </>
+  );
 }
 
 export default App;
