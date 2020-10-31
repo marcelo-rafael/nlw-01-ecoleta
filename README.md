@@ -7,7 +7,7 @@
 </h1>
 
 <h4 align="center"> 
-	🚧  Ecoleta ♻️ Concluído 🚀 🚧
+	  Ecoleta ♻️ Concluído 🚀 
 </h4>
 
 <p align="center">
